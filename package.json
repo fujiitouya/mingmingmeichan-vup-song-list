@@ -11,7 +11,7 @@
     "export": "next export",
     "buildssg": "next build && next export",
     "static": "next build && next export && touch ./out/.nojekyll && echo 'https://vup-song-list.github.io/mingmingmeichan-vup-song-list' > ./out/CNAME",
-    "deploy": "gh-pages -d out -t true"
+    "deploy": "gh-pages -d out -d out -t true"
   },
   "dependencies": {
     "gh-pages": "^3.2.0", 
