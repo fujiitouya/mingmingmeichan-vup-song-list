@@ -10,6 +10,7 @@
     "lint": "next lint",
     "export": "next export",
     "buildssg": "next build && next export",
+    "static": "next build && next export && touch ./out/.nojekyll && echo 'https://vup-song-list.github.io/mingmingmeichan-vup-song-list' > ./out/CNAME",
     "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
